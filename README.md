@@ -45,5 +45,12 @@
 ##File Zipping
 * `zo` : open current zipped text block.
 * `zc` : zip up current text block.
-* `zm` : zip all the text block in current document.
+* `zm` : zip all the text blocks in current document.
+* `zO` : upzip all the zipped text blocks in current document. in current document
+* `zA` : is simular to `zO`
+* `zC` : zip all the text into one block.
+
+##Useful Commands
+* `dd` : delete current line of code.
+* `u` : redo the last move.
 
