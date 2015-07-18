@@ -1,28 +1,28 @@
-##模式
+##Modes
 
-1. 輸入模式 -> 輸入內文
-2. 指令模式 -> 對文件的操作，複製、選取、修改、刪除⋯⋯
-3. 執行模式 -> 文件存擋，離開等等行為，通常以 " : " 為開頭
+1. insert mode -> insert texts
+2. command mode -> edit file likes "copy, delete, move ..." 
+3. normal mode -> usually started with ":"
 
-##常用模式切換指令
+##Often use mode changing commands
 
-* 進入指令模式或執行模式
+* To enter command mode or normal mode
 
 ```
 1. `ESC`
 2. `ctrl + [`
 ```
 
-* 進入輸入模式
+* To enter insert mode
   * Append :
-    * `a` : 游標後插入文字。
-    * `A` : 游標移到最後一個字元後插入文字。
+    * `a` : insert text into next location.
+    * `A` : insert text into the last location in current line.
   * Insert : 
-    * `i` : 游標前插入文字。
-    * `I` : 游標移到本行第一個字元後插入文字。
+    * `i` : insert text into previous location. 
+    * `I` : insert text into the first location in current line.
   * Open a new line:
-    * `o` : 向下插入新的一行。
-    * `O` : 向上插入新的一行。
+    * `o` : open a new line (next line).
+    * `O` : open a new line (previous line).
 ##移動游標後直接進入編輯模式
 
 *  移動到本行最後一個字元，再進入編輯模式 `A`
