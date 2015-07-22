@@ -9,8 +9,8 @@
 * To enter command mode or normal mode
 
 ```
-1. `ESC`
-2. `ctrl + [`
+1. ESC
+2. ctrl + [
 ```
 
 * To enter insert mode
